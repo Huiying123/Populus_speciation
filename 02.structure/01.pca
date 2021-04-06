@@ -1,0 +1,14 @@
+
+/home/uni/programme/plink/plink --vcf ../SNPs_filtered.lowdepth.missing.dup.recode.vcf --pca --allow-extra-chr --double-id --out populus
+
+
+library("ggplot2")
+library("cluster")
+eval <- read.table("/media/uni/data/projects/population_data/18.new_vcf/02.PCA/populus.snp.eigenval")
+evec1.pc <- round(eval[2,1]/sum(eval)*100,2)
+evec2.pc <- round(eval[3,1]/sum(eval)*100,2)
+evec=read.table(file="/media/uni/data/projects/population_data/18.new_vcf/02.PCA/populus.snp.eigenvec.withheader",header=T)
+pdf(file="/media/uni/data/projects/population_data/18.new_vcf/02.PCA/Populus_pca23.pdf")
+ggplot(evec,aes(x=pc02,y=pc03,color=Species, shape=Species))+scale_shape_manual(values=1:nlevels(evec$Species))+geom_point(size=5)+xla
+dev.off()
+
