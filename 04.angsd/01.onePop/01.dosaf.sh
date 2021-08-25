@@ -1,0 +1,1 @@
+angsd -gl 1 -anc ancestral -dosaf 1 -only_proper_pairs 1 -uniqueOnly 1 -remove_bads 1 -C 50 -minMapQ 30 -minQ 20 -setMinDepth 35 -setMaxDepth 280 -out pdav -bam file.list -ref ancestral -P 32 -sites 01.generate_sites.pl.txt

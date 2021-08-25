@@ -1,0 +1,1 @@
+angsd/angsd -bam file.list -out pdav -doThetas 1 -doSaf 1 -pest pdav.sfs -anc ancestral -gl 1 -ref ancestral -only_proper_pairs 1 -uniqueOnly 1 -remove_bads 1 -C 50 -minMapQ 30 -minQ 20 -setMinDepth 35 -setMaxDepth 280 -sites 01.generate_sites.pl.txt -P 12
