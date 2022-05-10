@@ -1,0 +1,1 @@
+/public/home/wangkun/software/plink/plink --vcf ../SNPs_filtered.lowdepth.missing.dup.recode.vcf --make-bed --allow-extra-chr --double-id --out allspecies

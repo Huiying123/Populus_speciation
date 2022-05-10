@@ -1,0 +1,10 @@
+#! /usr/bin/python
+#coding:utf-8
+
+import os
+import re
+
+find_file=re.compile(r'list$')
+for file in os.listdir('/media/uni/data/projects/population_data/01.snp/basic_statistics/LD'):
+            if find_file.search(file):
+               print "/home/uni/programme/plink/plink --bfile allspecies42.snp --r2 gz --ld-window-kb 100 --ld-window 99999 --allow-extra-chr --double-id --ld-window-r2 0 --out /media/uni/data/projects/population_data/01.snp/basic_statistics/LD/"+file+".LD --keep /media/uni/data/projects/population_data/01.snp/basic_statistics/LD/list/"+file,"\n"
