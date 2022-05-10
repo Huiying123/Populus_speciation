@@ -1,0 +1,11 @@
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 0 -o snp.filter.noN.LDpruned.treemix.frq.gz.0 -bootstrap -k 500 > treemix.0log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 1 -o snp.filter.noN.LDpruned.treemix.frq.gz.1 -bootstrap -k 500 > treemix.1log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 2 -o snp.filter.noN.LDpruned.treemix.frq.gz.2 -bootstrap -k 500 > treemix.2log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 3 -o snp.filter.noN.LDpruned.treemix.frq.gz.3 -bootstrap -k 500 > treemix.3log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 4 -o snp.filter.noN.LDpruned.treemix.frq.gz.4 -bootstrap -k 500 > treemix.4log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 5 -o snp.filter.noN.LDpruned.treemix.frq.gz.5 -bootstrap -k 500 > treemix.5log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 6 -o snp.filter.noN.LDpruned.treemix.frq.gz.6 -bootstrap -k 500 > treemix.6log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 7 -o snp.filter.noN.LDpruned.treemix.frq.gz.7 -bootstrap -k 500 > treemix.7log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 8 -o snp.filter.noN.LDpruned.treemix.frq.gz.8 -bootstrap -k 500 > treemix.8log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 9 -o snp.filter.noN.LDpruned.treemix.frq.gz.9 -bootstrap -k 500 > treemix.9log
+/public/home/wangkun/software/treemix/treemix-1.13-build/bin/treemix -i snp.filter.noN.LDpruned.treemix.frq.gz -m 10 -o snp.filter.noN.LDpruned.treemix.frq.gz.10 -bootstrap -k 500 > treemix.10log
