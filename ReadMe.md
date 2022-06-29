@@ -1,4 +1,4 @@
-This GitHub repository contains all the scripts(perl, R, and python) and programs used in "Conserved drivers of genomic landscapes of differentiation 
+This GitHub repository contains all the scripts(perl, R, and bash) and programs used in "Conserved drivers of genomic landscapes of differentiation 
 across Populus divergence gradient" that will be submitted to a Journal.
 
 The programs and related analysis including:
