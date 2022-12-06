@@ -1,0 +1,1 @@
+WE used ANGSD to calculate diversity and genetic differentiation between species. In the onepop folder, we run the scripts one by one follow the numbers in order to attain the SFS, Tajima's D and genetic diversity for each population.In the twopop folder we selected two different species pairs for Fst analysis, respectively.
