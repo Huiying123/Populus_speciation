@@ -1,0 +1,3 @@
+The kinship analysis is used to check family relationship and flag pedigree errors by estimating kinship coefficients and inferring IBD segments for all pairwise relationships. Here is the link for the programme: https://wwwkingrelatedness.com/manual.shtml.
+
+For running the programme, please follow the numbered scripts. run 01.kinship.sh  first and then 02.ggplot.pl was used to plot a figure. In the first script, we convert our vcf file to get a bed file, then use the king software to identify the duplications.
